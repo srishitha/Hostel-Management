@@ -43,7 +43,7 @@ public class StudentTest {
 	@Test
 	public void studentDuplicacyTest() throws IOException{
 //		boolean chk = true;
-		assertEquals(false,h.verifyName("abcdef"));
+		assertEquals(true,h.verifyName("abcdef"));
 	}
 
 
